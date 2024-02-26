@@ -12,6 +12,20 @@ Pets have become integral parts of human life, requiring consistent care. Howeve
 
 The system employs temperature, IR, and ultrasonic sensors to measure temperature, food level, and water level, respectively. The ESP8266 Wi-Fi module acts as the central controller, connected to a web server. A GUI allows pet owners to monitor and control the parameters. The architecture ensures real-time updates and notifications.
 
+<figure>
+  <figcaption>Block Diagram</figcaption>
+  <img
+  src="images/blockdiag.png"
+  alt="Block Digram"/>
+</figure>
+
+<figure>
+  <figcaption>Circuit Design</figcaption>
+  <img
+  src="images/circuit.png"
+  alt="Circuit Design"/>
+</figure>
+
 ## Hardware Design
 
 ### Temperature Sensing
@@ -48,6 +62,7 @@ The system employs temperature, IR, and ultrasonic sensors to measure temperatur
 - Web server displays real-time data and notifications.
 - Notifications include temperature alerts and food/water level indications.
 - Simulation ensures proper functioning of the IoT-based pet care system.
+- [![Video Link](images/sample.png)](https://www.youtube.com/watch?v=AfPTNOn8Xms)
 
 ## Future Scope
 
